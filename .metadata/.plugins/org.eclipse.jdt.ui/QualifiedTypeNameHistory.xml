@@ -3,4 +3,6 @@
     <fullyQualifiedTypeName name="boardgame.Position"/>
     <fullyQualifiedTypeName name="boardgame.Board"/>
     <fullyQualifiedTypeName name="boardgame.Piece"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="boardgame.BoardException"/>
 </qualifiedTypeNameHistroy>
