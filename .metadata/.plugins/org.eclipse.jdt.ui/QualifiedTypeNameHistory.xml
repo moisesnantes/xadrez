@@ -7,4 +7,5 @@
     <fullyQualifiedTypeName name="chess.Color"/>
     <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
     <fullyQualifiedTypeName name="boardgame.Position"/>
+    <fullyQualifiedTypeName name="chess.ChessException"/>
 </qualifiedTypeNameHistroy>
