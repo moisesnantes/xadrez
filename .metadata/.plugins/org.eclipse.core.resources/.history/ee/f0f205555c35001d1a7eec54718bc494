@@ -111,7 +111,7 @@ public class ChessMatch {
 				return (ChessPiece)p;
 			}
 		}
-		throw new IllegalStateException("There is no" + color + " king on the boad");
+		trow new IllegalStateException("There is no" + color + " king on the boad");
 	}
 	
 	private void placeNewPiece(char column, int row, ChessPiece piece) {
