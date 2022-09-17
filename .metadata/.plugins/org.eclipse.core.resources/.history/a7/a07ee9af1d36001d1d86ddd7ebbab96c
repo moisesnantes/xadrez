@@ -164,10 +164,6 @@ public class ChessMatch {
 	public Color getCurrentPlayer() {
 		return currentPlayer;
 	}
-	
-	public boolean getCheck() {
-		return check;
-	}
 
 
 
