@@ -59,13 +59,7 @@ public class ChessMatch {
 		
 		check = (testCheck(opponent(currentPlayer))) ? true : false;
 		
-		if (testCheck(opponent(currentPlayer))) {
-			checkMate = true;
-		}
-		else {
-			nextTurn();
-		}
-		
+		nextTurn();
 		return (ChessPiece)capturedPiece;
 	}
 	
@@ -163,7 +157,6 @@ public class ChessMatch {
 				}
 			}
 		}
-		return true;
 	}
 	
 	private void placeNewPiece(char column, int row, ChessPiece piece) {
