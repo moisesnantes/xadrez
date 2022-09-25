@@ -172,7 +172,7 @@ public class ChessMatch {
 			rook.increaseMoveCount();
 		}		
 		
-		// #specialmove en passant
+		// #specialmove en passant.
 		if (p instanceof Pawn) {
 			if (source.getColumn() != target.getColumn() && capturedPiece == null) {
 				Position pawnPosition;
